@@ -14,4 +14,4 @@ To access the password generator directly visit
 * [Day Planner Url](https://rgfitzhugh.github.io/day-planner/)
 
 
-![Day-Planner screenshot](assets/screencapture.JPG)
+![Day-Planner screenshot](Assets/screencapture.JPG)
