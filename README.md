@@ -1,47 +1,17 @@
-# 05 Third-Party APIs: Work Day Scheduler
+Work Day Scheduler
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This work day planner will show the current day and date in the header. There is a row for each hour
+of the workday.  Each row will change color based on the time of day to represent a past, present, and future state.
+After entering an event, click the save button to the right of the row.  The event is now saved in local storage and 
+will be retrieved on refresh. Events entered in past or present rows will not be saved to be retreived upon refresh.
 
-The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but feel free to use a different JavaScript solution to handle this functionality since Moment.js is considered a "legacy" project. Learn more about these other solutions in the [Moment.js project status page.](https://momentjs.com/docs/#/-project-status/)
+These files for this project can be found in the following location:
 
-## User Story
+* [GitHub Repsoitory](https://github.com/rgfitzhugh/day-planner)
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+To access the password generator directly visit
 
-## Acceptance Criteria
+* [Day Planner Url](https://rgfitzhugh.github.io/day-planner/)
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
-# day-planner
+![Day-Planner screenshot](assets/screencapture.JPG)

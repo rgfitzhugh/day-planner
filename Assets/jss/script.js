@@ -111,13 +111,13 @@ planner.forEach(function(thisHour) {
     var hourField = $("<div>")
         .text(`${thisHour.hour} ${thisHour.meridiem}`)
         .attr({
-            "class": "col-md-1 text-right hour"
+            "class": "col-md-1 col-2 text-right hour"
     });
 
     // creates to-do list
     var hourPlan = $("<div>")
         .attr({
-            "class": "col-md-9 description p-0"
+            "class": "col-md-9  col-8 description p-0"
         });
     var planData = $("<textarea>");
     hourPlan.append(planData);
@@ -136,13 +136,12 @@ planner.forEach(function(thisHour) {
             "class": "future"
         })
     }
-
     // creates save button
     // uses fontawesome to pull in the disk icon
     var saveButton = $("<i class='far fa-save fa-lg'></i>")
     var savePlan = $("<button>")
         .attr({
-            "class": "col-md-1 saveBtn"
+            "class": "col-md-1 col-2 saveBtn"
     });
     savePlan.append(saveButton);
     hourRow.append(hourField, hourPlan, savePlan);
